@@ -1,0 +1,19 @@
+div {
+    
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;     
+    font-size: 30px;
+}
+
+.table {   
+    width: 500px;
+    height: 500px;
+}
+.cells{
+    float:left;
+}
+.dark{
+    background: forestgreen;
+}
