@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .catalog {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid black;
+  float: left;
+}
+.container .catalog .item {
+  flex-grow: 1;
+  width: 150px;
+  margin: 50px;
+  text-align: center;
+  outline: 1px solid black;
+}
+.container .catalog img {
+  width: 100px;
+  height: 100px;
+}
+.container .cart {
+  width: 300px;
+  outline: 1px solid red;
+  float: right;
+}

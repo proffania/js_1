@@ -1,0 +1,31 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;    
+
+    .catalog {
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        outline: 1px solid black;
+        float: left;
+        .item {
+            flex-grow: 1;
+            width: 150px;
+            margin: 50px;
+            text-align: center;
+           outline:  1px solid black;
+
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .cart {
+        width: 300px;
+        outline: 1px solid red;
+        float: right;
+    }
+
+}
